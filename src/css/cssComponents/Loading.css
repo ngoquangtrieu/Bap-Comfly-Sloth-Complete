@@ -1,0 +1,24 @@
+.body {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spiner {
+  margin-top: 50px;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: 10px solid white;
+  border-radius: 50%;
+  border-top: 10px solid #ff8000;
+  animation: spiner 0.5s linear infinite;
+}
+
+@keyframes spiner {
+  to {
+    transform: rotate(360deg);
+  }
+}

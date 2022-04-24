@@ -1,0 +1,42 @@
+.aboutContent{
+    display: flex;
+    height: 660px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.aboutContentImg{
+    margin: 80px 30px;
+    width: 40%;
+    
+}
+
+.aboutContentImg img{
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.aboutContentText{
+    width: 40%;
+    margin: 80px 30px;
+}
+
+.aboutContentText h1{
+    font-size: 40px;
+    color: var(--color-black-1);
+    letter-spacing: 1px;
+}
+
+.aboutContentText .underline{
+    width: 100px;
+    border-bottom: 4px solid var(--color-brown-1);
+    margin: 10px 0 60px;
+}
+
+.aboutContentText span{
+    color: var(--color-blue-1);
+    line-height: 2;
+    font-size: 16px;
+}

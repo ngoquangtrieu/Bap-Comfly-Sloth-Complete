@@ -1,0 +1,18 @@
+.footer{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-black-1);
+    letter-spacing: 1px;
+}
+
+span{
+    color: var(--color-white-1);
+}
+
+.footerCS{
+    margin: 0 8px;
+    color: var(--color-brown-1);
+}

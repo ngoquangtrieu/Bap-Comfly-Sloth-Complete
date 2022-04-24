@@ -1,0 +1,81 @@
+.intro{
+    display: flex;
+    margin: 0 4%;
+    height: 498px;
+    justify-content: space-between;
+}
+
+.intro-text{
+    width: 500px;
+}
+
+.intro-text h1{
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    color: var(--color-black-2);
+    margin-top: 100px;
+}
+
+.intro-text h1:nth-child(2){
+    margin: 0 0 32px;
+}
+.intro-text p{
+    color: var(--color-blue-1);
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.intro-text a{
+    padding: 14px 24px;
+    border-radius: 5px;
+    background-color: var(--color-brown-3);
+    color: var(--color-white-1);
+    font-size: 16px;
+    transition: 0.4s;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.intro-text a:hover{
+    color: var(--color-black-1);
+    background-color: var(--color-brown-2);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.intro-img{
+    width: 500px;
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+
+.intro-img img:nth-child(1){
+    position: absolute;
+    width: 85%;
+    height: 548px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.intro-img img:nth-child(2){
+    position: absolute;
+    width: 250px;
+    height: 160px;
+    bottom: -10%;
+    border-radius: 5px;
+    z-index: 1;
+    left: -10%;
+}
+
+.intro-img::before{
+    content: "";
+    width: 60px;
+    height: 300px;
+    background-color: var(--color-pink-1);
+    border-radius: 5px;
+    position: absolute;
+    left: 8%;
+    top: 20%;
+}

@@ -1,0 +1,87 @@
+.header{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 40px;
+}
+
+.logo img{
+    width: 175px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.listPage{
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+}
+.page{
+    position: relative;
+    margin: 0 10px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.page:hover{
+    cursor: pointer;
+}
+
+.page a{
+    text-decoration: none;
+    color: hsl(209, 34%, 30%);
+    padding: 20px 0;
+}
+
+.page i{
+    margin-left: 8px;
+    font-size: 20px;
+    color: var(--color-black-1);
+}
+
+.listPageLeft .page{
+    padding: 0 6px;
+    transition: 0.4s;
+    border-bottom: 2px solid transparent;
+}
+
+.listPageLeft .page:hover{
+    border-bottom: 2px solid var(--color-brown-1);
+    transition: 0.4s;
+}
+
+.listPageRight{
+    margin-right: 60px;
+    font-size: 25px;
+}
+
+.pageRight{
+    padding-right: 20px;
+}
+
+.totalItem{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--color-brown-1);
+    right: -8px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.totalItem span{
+    color: var(--color-white-1);
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
